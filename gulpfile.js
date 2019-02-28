@@ -9,19 +9,21 @@ const del = require('del');
 const browserSync = require('browser-sync').create();
 
 const htmlFiles = [
-  './src/html/head.html',
-  './src/html/content.html',
-  './src/html/end.html'
+  './src/app/base/head.html',
+  './src/app/base/end.html',
+  './src/app/header/header.html',
+  './src/app/content/content.html',
+  './src/app/footer/footer.html'
 ]
 
 const cssFiles = [
   './node_modules/normalize.css/normalize.css',
-  './src/css/style.css',
-  './src/css/responsive.css'
+  './src/app/base/style.css',
+  './src/app/base/responsive.css'
 ];
 
 const jsFiles = [
-  './src/js/main.js'
+  './src/app/base/main.js'
 ]
 
 function html() {
