@@ -18,8 +18,13 @@ const htmlFiles = [
 
 const cssFiles = [
   './node_modules/normalize.css/normalize.css',
-  './src/app/base/style.css',
-  './src/app/base/responsive.css'
+  './src/app/base/*.css',
+  './src/app/**/xs.css',
+  './src/app/**/sm.css',
+  './src/app/**/md.css',
+  './src/app/**/lg.css',
+  './src/app/**/xl.css',
+  './src/app/**/*.css',
 ];
 
 const jsFiles = [
@@ -54,6 +59,16 @@ function scripts() {
     .pipe(gulp.dest('./dist/js'));
 }
 
+function images() {
+  return gulp.src('./src/images/*.*')
+    .pipe(gulp.dest('./dist/images'));
+}
+
+function fonts() {
+  return gulp.src('./src/fonts/*.*')
+    .pipe(gulp.dest('./dist/fonts'));
+}
+
 function watch() {
   browserSync.init({
     server: {
@@ -61,9 +76,14 @@ function watch() {
     },
     tunnel: true
   });
-  gulp.watch('./src/html/**/*.html', html).on('change', browserSync.reload);
-  gulp.watch('./src/css/**/*.css', styles).on('change', browserSync.reload);
-  gulp.watch('./src/js/**/*.js', scripts).on('change', browserSync.reload);
+
+  gulp.watch('./src/app/**/*.html', html) .on('change', browserSync.reload);
+    gulp.watch('./src/app/**/*.css', styles) .on('change', browserSync.reload);
+  gulp.watch('./src/app/**/*.js', scripts) .on('change', browserSync.reload);
+  gulp.watch('./src/images/*.*', images) .on('change', browserSync.reload);
+  gulp.watch('./src/fonts/*.*', fonts) .on('change', browserSync.reload);
+    gulp.watch('./src/**/*.*') .on('change', browserSync.reload);
+
 }
 
 function clean() {
@@ -74,4 +94,5 @@ exports.watch = watch;
 exports.html = html;
 exports.styles = styles;
 exports.scripts = scripts;
-exports.build = series(clean, parallel(html, styles, scripts));
+exports.clean = clean;
+exports.build = series(clean, parallel(html, styles, scripts, images, fonts));

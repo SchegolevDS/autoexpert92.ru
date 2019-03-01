@@ -1,0 +1,90 @@
+/* Экстрамалые девайсы и больше*/
+html, body {
+  font-size: 16px;
+}
+
+.header {
+  background: url(../images/bg.jpg) bottom no-repeat;
+  background-size: 2800px;
+  height: 830px;
+  color: #c4c7d3;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.info {
+  display: none;
+}
+
+.nav {
+  padding-top: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo {
+  width: 75%;
+  font-family: Raleway;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile {
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+}
+
+.tel {
+  padding-top: 12px;
+  flex-direction: column;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.tel r {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.tel small {
+  display: none;
+}
+
+.tel text {
+  text-transform: none;
+  font-size: 16px;
+}
+
+.nav-bottom {
+  display: none;
+}
+
+
+.home {
+  margin-top: 15px;
+  width: 100%;
+}
+
+h1 {
+  color: #f5f5f5;
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+
+
+/* Только Экстрамалые девайсы («портретные телефоны», < 576px)*/
+@media (max-width: 575.98px) {
+
+}

@@ -1,24 +1,15 @@
-html {
-  font-size: 20px;
+html, body {
+  font-family: FuturaPT;
 }
-
-.col {
-  display: flex;
-  border: 1px solid #000;
+.b  {
+  border: 1px solid #000000;
 }
-
-.grid {
-  max-width: 1200px;
+.container {
+  max-width: 1170px;
   margin: 0 auto;
-  min-height: 100vh;
-
-  display: grid;
-  grid-template-rows: 150px 50px 100px 20px;
-  grid-template-columns: 1fr 250 px;
+  padding: 0 15px;
 }
 
-header {
-  background: #36D695;
-  padding:  10px 15px;
-  border-bottom:  1px solid #fff;
+r {
+  color: #f5124a;
 }

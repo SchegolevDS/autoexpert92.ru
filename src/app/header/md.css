@@ -1,0 +1,121 @@
+/*Средние девайсы и больше («таблетки», >= 768px)*/
+@media (min-width: 768px) {
+  .header {
+    background-size: cover;
+    background-position: center;
+    height: 890px;
+    color: #c4c7d3;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .background {
+    background: url(../images/bg1.png) center no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .car {
+    background: url(../images/car.png) bottom no-repeat;
+    background-size: contain;
+    height: 100%;
+  }
+
+  .nav {
+    flex-wrap: nowrap;
+    padding-top: 30px;
+    height: 66px;
+    border-bottom: 1px solid rgba(164, 169, 188, 0.12);
+  }
+
+  .logo {
+    font-size: 18px;
+    width: auto;
+  }
+
+  .info {
+    margin: 0 23px 0 26px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    border-left: 1px solid rgba(164, 169, 188, 0.12);
+    border-right: 1px solid rgba(164, 169, 188, 0.12);
+  }
+
+  .info .item1 {
+    width: 240px;
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  .info .item2 {
+    width: 190px;
+    display: flex;
+    align-items: center;
+  }
+
+  .info .clock {
+    display: flex;
+    align-items: center;
+    margin: 0 21px 0 auto;
+  }
+
+  .info img {
+    margin: 16px;
+    height: 42px;
+  }
+
+  .info .clock img {
+    height: auto;
+  }
+
+  .tel {
+    padding-top: 0;
+  }
+
+  .tel r {
+    font-size: 26px;
+  }
+
+  .tel small {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: underline;
+    text-align: left;
+  }
+
+  .tel text {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .nav-bottom {
+    display: flex;
+    width: 185px;
+    margin: 19px 0 0 auto;
+  }
+
+  .nav-bottom img {
+    margin: 0 0 -3px 4px;
+  }
+
+  .home {
+    margin-top: 15px;
+    width: 636px;
+  }
+
+  h1 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+/*Только Средние девайсы («таблетки», >= 768px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
