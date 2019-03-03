@@ -5,15 +5,14 @@ html, body {
 
 .header {
   background: url(../images/bg.jpg) bottom no-repeat;
-  background-size: 2800px;
-  height: 830px;
+  background-size: 2700px;
   color: #c4c7d3;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
 }
 
-.info {
+.nav .info {
   display: none;
 }
 
@@ -21,11 +20,10 @@ html, body {
   padding-top: 17px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .logo {
-  width: 75%;
   font-family: Raleway;
   font-size: 14px;
   text-transform: uppercase;
@@ -35,19 +33,19 @@ html, body {
 }
 
 .mobile {
-  padding: 0 5px;
+  margin: 0 -5px;
   display: flex;
   align-items: center;
 }
 
 .tel {
+  width: 100%;
   padding-top: 12px;
   flex-direction: column;
   display: flex;
   text-transform: uppercase;
   justify-content: center;
   text-align: center;
-
 }
 
 .tel r {
@@ -68,10 +66,17 @@ html, body {
   display: none;
 }
 
-
 .home {
-  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
   width: 100%;
+  align-items: center;
+  color: #fff9f9;
+}
+
+.headline {
+  align-self: flex-start;
 }
 
 h1 {
@@ -80,6 +85,48 @@ h1 {
   font-weight: 900;
   font-size: 24px;
   line-height: 30px;
+}
+
+.telme  {
+  margin: 40px 0 15px 0;
+  width: 145px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  order: 1;
+}
+
+.home .info {
+  margin: 32px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  order: 3;
+}
+
+.home .info .item {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.home .info .item img {
+  margin: 0 27px 0 0;
+}
+
+.home .button {
+  background: url(../images/btn.png) no-repeat;
+  background-size: cover;
+  height: 205px;
+  width: 229px;
+  order: 2;
+}
+
+.home .button:hover {
+  background: url(../images/btn_hover.png) no-repeat;
+  background-size: cover;
+  height: 205px;
+  width: 229px;
 }
 
 

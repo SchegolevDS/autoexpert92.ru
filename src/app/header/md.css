@@ -3,9 +3,9 @@
   .header {
     background-size: cover;
     background-position: center;
-    height: 890px;
+    height: 100vh;
     color: #c4c7d3;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 24px;
   }
@@ -18,7 +18,7 @@
 
   .car {
     background: url(../images/car.png) bottom no-repeat;
-    background-size: contain;
+    background-size: 220%;
     height: 100%;
   }
 
@@ -30,28 +30,28 @@
   }
 
   .logo {
-    font-size: 18px;
-    width: auto;
+    font-size: 14px;
   }
 
-  .info {
-    margin: 0 23px 0 26px;
+  .nav .info {
+    margin: 0 11px 0 13px;
     display: flex;
     flex-grow: 1;
     align-items: center;
+    justify-content: center;
     border-left: 1px solid rgba(164, 169, 188, 0.12);
     border-right: 1px solid rgba(164, 169, 188, 0.12);
   }
 
-  .info .item1 {
-    width: 240px;
-    margin-right: 60px;
+  .nav .info .item1 {
+    width: 200px;
+    margin-right: 10px;
     display: flex;
     align-items: center;
   }
 
-  .info .item2 {
-    width: 190px;
+  .nav .info .item2 {
+    width: 155px;
     display: flex;
     align-items: center;
   }
@@ -59,11 +59,11 @@
   .info .clock {
     display: flex;
     align-items: center;
-    margin: 0 21px 0 auto;
+    margin: 0 11px 0 auto;
   }
 
   .info img {
-    margin: 16px;
+    margin: 10px;
     height: 42px;
   }
 
@@ -72,18 +72,19 @@
   }
 
   .tel {
+    width: auto;
     padding-top: 0;
   }
 
   .tel r {
-    font-size: 26px;
+    font-size: 16px;
   }
 
   .tel small {
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
-    line-height: 22px;
+    line-height: 12px;
     text-decoration: underline;
     text-align: left;
   }
@@ -109,12 +110,31 @@
   .home {
     margin-top: 15px;
     width: 636px;
+    align-items: flex-start;
   }
 
   h1 {
     font-size: 56px;
     line-height: 64px;
   }
+
+  .home .info {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    order: 1;
+  }
+
+  .home .telme {
+    margin: 40px 0 15px 0;
+    width: 345px;
+    order: 2;
+  }
+
+  .home .button {
+    order: 3;
+  }
+
 }
 
 /*Только Средние девайсы («таблетки», >= 768px)*/

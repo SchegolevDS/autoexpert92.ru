@@ -10,10 +10,10 @@ const browserSync = require('browser-sync').create();
 
 const htmlFiles = [
   './src/app/base/head.html',
-  './src/app/base/end.html',
   './src/app/header/header.html',
   './src/app/content/content.html',
-  './src/app/footer/footer.html'
+  './src/app/footer/footer.html',
+  './src/app/base/end.html',
 ]
 
 const cssFiles = [

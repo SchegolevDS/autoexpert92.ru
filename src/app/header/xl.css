@@ -1,4 +1,37 @@
+/*Экстрабольшие девайсы (большие десктопы,высота >= 890px)*/
+@media (min-width: 992px) and (min-height: 890px) {
+  .header {
+    height: 890px;
+  }
+}
+
+@media (min-width: 1260px){
+  .background {
+    background-size: 150%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1360px){
+  .background {
+    background-size: 140%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1300px) and (min-height: 890px) {
+  .background {
+    background-size: cover;
+  }
+}
 /*Экстрабольшие девайсы (большие десктопы, >= 1200px)*/
-@media (min-width: 1200px) {
-  
+@media (min-width: 1280) {
+
+}
+
+@media (min-width: 1300px) {
+  .car {
+    background-size: contain;
+  }
+
 }

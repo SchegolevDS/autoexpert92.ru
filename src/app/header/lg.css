@@ -1,6 +1,77 @@
 /*Большие девайсы и больше (десктопы, >= 992px)*/
-@media (min-width: 992px)) {
+@media (min-width: 992px) {
+  .header {
+    height: 100vh;
+    font-size: 17px;
+  }
 
+  .background {
+    background: url(../images/bg1.png) top no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .car {
+    background: url(../images/car.png) bottom no-repeat;
+    background-size: 110%;
+    height: 100%;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .nav .info {
+    margin: 0 23px 0 26px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    border-left: 1px solid rgba(164, 169, 188, 0.12);
+    border-right: 1px solid rgba(164, 169, 188, 0.12);
+  }
+
+  .nav .info .item1 {
+    width: 240px;
+    margin-right: 60px;
+  }
+
+  .nav .info .item2 {
+    width: 190px;
+  }
+
+  .info .clock {
+    margin: 0 21px 0 auto;
+  }
+
+  .info img {
+    margin: 16px;
+  }
+
+  .tel r {
+    font-size: 18px;
+  }
+
+  .tel small {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .home .button {
+      margin-left: 50px;
+  }
+
+}
+
+/*(десктопы, >= 1060px)*/
+@media (min-width: 1060px) {
+  .tel r {
+    font-size: 26px;
+  }
+
+  .tel small {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }
 
 /*Только Большие девайсы (большие десктопы, >= 992px)*/

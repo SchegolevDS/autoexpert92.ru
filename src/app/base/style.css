@@ -7,9 +7,15 @@ html, body {
 .container {
   max-width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 24px;
 }
 
 r {
   color: #f5124a;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
 }
