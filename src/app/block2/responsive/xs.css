@@ -1,0 +1,69 @@
+/* Экстрамалые девайсы и больше*/
+h5 {
+  display: flex;
+  font-family: FuturaPT !important;
+  font-weight: 800 !important;
+  font-size: 54px;
+  font-weight: 400;
+  letter-spacing: 3.13px;
+  text-align: center;
+  margin: 14px 0 14px 0;
+  color: #ffffff;
+}
+
+.professional p {
+  width: 126px;
+  margin: 14px 0 4px 0;
+  text-align: center;
+}
+
+.professional small {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 20px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.professional {
+  background: url(../images/bg.png) no-repeat;
+  background-size: cover;
+}
+
+.professional .headline {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  margin: 15px 0 58px 0;
+}
+
+.professional .info {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+
+.professional .info__item {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.professional .info__item--module{
+  display: flex;
+  flex-direction: column;
+  color: #e6e6e6;
+  font-size: 15px;
+  line-height: 19px;
+  margin: 0 0 45px 0;
+  align-items: center;
+}
+
+
+/* Только Экстрамалые девайсы («портретные телефоны», < 576px)*/
+@media (max-width: 575.98px) {
+
+}

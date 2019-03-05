@@ -1,0 +1,11 @@
+/*Большие девайсы и больше (десктопы, >= 992px)*/
+@media (min-width: 992px)) {
+  .about .img1, .about .img2, .about .img3, .about .img4 {
+    width: auto;
+  }
+}
+
+/*Только Большие девайсы (большие десктопы, >= 992px)*/
+@media (min-width: 992px) and (max-width: 1199.98px)  {
+
+}

@@ -1,0 +1,31 @@
+/*Средние девайсы и больше («таблетки», >= 768px)*/
+@media (min-width: 768px) {
+  h5 {
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 25px 0 25px 0;
+  }
+
+  .professional p {
+    width: 266px;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .professional small {
+    width: 60px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .professional .info__item {
+    width: auto;
+  }
+}
+
+/*Только Средние девайсы («таблетки», >= 768px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {}

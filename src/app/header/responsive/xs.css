@@ -75,7 +75,8 @@ html, body {
   color: #fff9f9;
 }
 
-.headline {
+.home .headline {
+  width: auto;
   align-self: flex-start;
 }
 
