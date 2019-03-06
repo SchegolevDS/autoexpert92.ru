@@ -135,7 +135,6 @@
     margin: 0 15px 0 0;
   }
 
-
   .home .telme {
     font-size: 19px;
     margin: 40px 0 15px 0;
@@ -149,6 +148,10 @@
     width: 275px;
   }
 
+  .home .button:hover {
+    height: 242px;
+    width: 275px;
+  }
 }
 
 /*Только Средние девайсы («таблетки», >= 768px)*/
