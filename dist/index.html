@@ -7,9 +7,7 @@
   <title>TITLE</title>
 <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
-
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=26747bc1-029b-4a9b-983a-9d90e83d7a53&lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
 
@@ -55,21 +53,17 @@
             <h1>Прибытие аварийного <br> комиссара на <r>ДТП</r> <br> в течение <r>20 минут</r>
           </div>
           <div class="telme">
-            Позвоните нам и мы проконсультируем вас <r>бесплатно</r>!
+            Позвоните нам и мы проконсультируем вас <r><u>бесплатно</u></r>!
           </div>
           <a href="#" class="button"></a>
           <div class="info" style >
             <div class="item">
               <img src="./images/icon_outline1.png" style="height: 71px" alt="">
-              <div class="col align-self-center">
-                Страховые Выплаты <br> в течение 3-х дней
-              </div>
+              Страховые Выплаты <br> в течение 3-х дней
             </div>
             <div class="item">
               <img src="./images/icon_outline2.png" style="height: 71px" alt="">
-              <div class="col align-self-center">
-                Без замудренных <br> доверенностей
-              </div>
+              Без замудренных <br> доверенностей
             </div>
           </div>
         </div>
@@ -170,64 +164,150 @@
       <h2><r>Важно</r> знать</h2>
     </div>
     <div class="info">
-      <div class="info__item">
+      <div class="info__item--1">
         <button id="button-1" class="button--bg">
           <div class="button">1</div>
         </button>
-        <div id="item-1" class="info__item--text">
-          Аварийный комиссар — <br> это либо работник страховой
-          компании, который действует <br> в её интересах,<br>
-          либо независимое физическое или юридическое лицо, <br>
-          у которого в интересах <br> помощь вам. <br>
-          Мы же относимся ко второму типу: самый объективный <br>
-          и надежный вариант <br> для решения ваших проблем
+        <div id="item-1" class="item__text--1">
+          <div class="item__text--tr1"></div>
+          <div class="item__text--border">
+            Аварийный комиссар — <br> это либо работник страховой
+            компании, который действует <br> в её интересах,<br>
+            либо независимое физическое или юридическое лицо, <br>
+            у которого в интересах <br> помощь вам. <br>
+            Мы же относимся ко второму типу: самый объективный <br>
+            и надежный вариант <br> для решения ваших проблем
+          </div>
         </div>
       </div>
-      <div class="info__item">
+      <div class="info__item--2">
         <button id="button-2" class="button--bg">
           <div class="button">2</div>
         </button>
-        <div id="item-2" class="info__item--text">
-          Страховые компании часто <br> скрывают реальную сумму <br>
-          ущерба и если не обладать <br> достаточными знаниями <br>
-          и опытом в юридических <br> вопросах, есть риск <br>
-          не получить часть <br> страховой выплаты
+        <div id="item-2" class="item__text--2">
+          <div class="item__text--tr2"></div>
+          <div class="item__text--border">
+            Страховые компании часто <br> скрывают реальную сумму <br>
+            ущерба и если не обладать <br> достаточными знаниями <br>
+            и опытом в юридических <br> вопросах, есть риск <br>
+            не получить часть <br> страховой выплаты
+          </div>
         </div>
       </div>
-      <div class="info__item">
+      <div class="info__item--3">
         <button id="button-3" class="button--bg">
           <div class="button">3</div>
         </button>
-        <div id="item-3" class="info__item--text">
-          Страховые компании часто скрывают реальную сумму
-          ущерба и если не обладать достаточными знаниями <br>
-          и опытом в юридических вопросах, есть риск <br>
-          не получить часть страховой выплаты
+        <div id="item-3" class="item__text--3">
+          <div class="item__text--border">
+            Страховые компании часто скрывают реальную сумму
+            ущерба и если не обладать достаточными знаниями <br>
+            и опытом в юридических вопросах, есть риск <br>
+            не получить часть страховой выплаты
+          </div>
+          <div class="item__text--tr3"></div>
         </div>
       </div>
-      <div class="info__item">
+      <div class="info__item--4">
         <button id="button-4" class="button--bg">
           <div class="button">4</div>
         </button>
-        <div id="item-4" class="info__item--text">
-          В результате эмоционального напряжения и стресса <br>
-          в следствии ДТП можно упустить множество важных деталей
-          документально, <br> из-за которых в последствии могут
-          возникнуть трудности. Оставьте это профессионалам
+        <div id="item-4" class="item__text--4">
+          <div class="item__text--tr4"></div>
+          <div class="item__text--border">
+            В результате эмоционального напряжения и стресса <br>
+            в следствии ДТП можно упустить множество важных деталей
+            документально, <br> из-за которых в последствии могут
+            возникнуть трудности. Оставьте это профессионалам
+          </div>
         </div>
       </div>
     </div>
-
-
-
 
 </div>
   </div>
 </div>
 
+<div id="contacts" class="contacts">
+  <div class="container">
+    <div class="info">
+      <div class="info__block">
+        <div class="headline">
+          <h2>Наши контакты:</h2>
+        </div>
+        <div class="info__block--items">
+          <div class="info__block--item-1">
+            <img src="./images/map.png" alt="">
+          </div>
+          <div class="info__block--item-2">
+            <span>Адрес:<p>г. Севастополь, Ул. Маринеско, 1-А</p></span>
+          </div>
+        </div>
+        <div class="info__block--items">
+          <div class="info__block--item-1">
+            <img src="./images/vk.png" alt="">
+          </div>
+          <div class="info__block--item-2">
+            <span>Мы вконтакте:<p>https://vk.com/auto92expert</p></span>
+          </div>
+        </div>
+        <div class="info__block--items">
+          <div class="info__block--item-1">
+            <img src="./images/tel.png" alt="">
+          </div>
+          <div class="info__block--item-2">
+            <span>Телефон:<p>8 978 1000 792</p></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="map" class="map">
+    <script type="text/javascript">
+      ymaps.ready(init);
 
+      function init() {
+        var myMap = new ymaps.Map("map", {
+          center: [44.574575, 33.465703],
+          zoom: 18
+        });
+        myGeoObject = new ymaps.GeoObject({}, {
+          preset: 'islands#blackStretchyIcon',
+          draggable: true
+        });
+        myMap.geoObjects
+          .add(new ymaps.Placemark([44.574575, 33.465703], {
+            balloonContent: 'Auto <strong>Expert</strong>'
+          }, {
+            preset: 'islands#icon',
+            iconColor: '#e2481f'
+          }))
+      }
+    </script>
+  </div>
+</div>
 
+<footer class="footer">
+  <div class="container">
+    <div class="info">
+      <div class="info__item--1">
+        <div class="logo">
+          <r>Auto</r>expert
+        </div>
+      </div>
+      <div class="info__item--2">
+        <a href="#home">На главную</a><br>
+      </div>
+      <div class="info__item--3">
+        8 978 1000 792
+        <a href=""><u>Бесплатная консультация</u></a>
+      </div>
+    </div>
+  </div>
+</footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>

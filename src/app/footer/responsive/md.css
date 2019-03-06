@@ -1,23 +1,7 @@
 /*Средние девайсы и больше («таблетки», >= 768px)*/
 @media (min-width: 768px) {
-  .contacts {
-    background: none;
-  }
-
-  .contacts .info {
-    margin: 180px 0 -640px 0;
-    width: 484px;
-    height: 460px;
-  }
-
-  .contacts .headline {
-    margin: 20px;
-  }
-
-  .map {
-    display: block;
-    height: 740px;
-    width: 100%;
+  footer {
+    margin-top: 240px;
   }
 }
 

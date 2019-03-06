@@ -78,6 +78,7 @@
 
   .tel r {
     font-size: 16px;
+    margin-bottom: 5px;
   }
 
   .tel small {
@@ -101,10 +102,11 @@
     display: flex;
     width: 185px;
     margin: 19px 0 0 auto;
+    align-items: center;
   }
 
   .nav-bottom img {
-    margin: 0 0 -3px 4px;
+    margin: 0 0 0 7px;
   }
 
   .home {
@@ -125,14 +127,26 @@
     order: 1;
   }
 
+  .home .info .item {
+    margin-right: 60px;
+  }
+
+  .home .info .item img {
+    margin: 0 15px 0 0;
+  }
+
+
   .home .telme {
+    font-size: 19px;
     margin: 40px 0 15px 0;
-    width: 345px;
+    width: 340px;
     order: 2;
   }
 
   .home .button {
     order: 3;
+    height: 242px;
+    width: 275px;
   }
 
 }

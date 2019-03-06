@@ -1,15 +1,23 @@
 html, body {
   font-family: FuturaPT;
 }
-
-div {
-  border: 1px solid #000000;
+::-webkit-scrollbar {
+    display: none;
 }
 
 .container {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 24px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f5124a;
 }
 
 r {

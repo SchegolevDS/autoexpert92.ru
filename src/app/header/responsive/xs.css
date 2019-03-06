@@ -69,7 +69,7 @@ html, body {
 .home {
   display: flex;
   flex-direction: column;
-  margin-top: 45px;
+  margin-top: 35px;
   width: 100%;
   align-items: center;
   color: #fff9f9;
@@ -89,7 +89,7 @@ h1 {
 }
 
 .telme  {
-  margin: 40px 0 15px 0;
+  margin: 28px 0 15px 0;
   width: 145px;
   font-size: 17px;
   font-weight: 500;

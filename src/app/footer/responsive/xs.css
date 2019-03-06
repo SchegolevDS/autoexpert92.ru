@@ -1,0 +1,38 @@
+/* Экстрамалые девайсы и больше*/
+
+footer {
+  background: white;
+  padding: 35px;
+}
+
+footer .info {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+footer .info__item--1 {
+  align-items: flex-start;
+  flex-grow: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .info__item--2 {
+  align-items: flex-start;
+  flex-grow: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .info__item--3 {
+  align-items: flex-start;
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Только Экстрамалые девайсы («портретные телефоны», < 576px)*/
+@media (max-width: 575.98px) {
+
+}
