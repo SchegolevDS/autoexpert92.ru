@@ -1,6 +1,10 @@
 /*Большие девайсы и больше (десктопы, >= 992px)*/
 @media (min-width: 992px) {
-
+  .know {
+    background: url(../images/bg2.png) center no-repeat;
+    background-size: cover;
+    height: 900px;
+  }
 }
 
 /*Только Большие девайсы (большие десктопы, >= 992px)*/

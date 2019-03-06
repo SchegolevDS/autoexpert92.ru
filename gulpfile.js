@@ -13,6 +13,8 @@ const htmlFiles = [
   './src/app/header/index.html',
   './src/app/block1/index.html',
   './src/app/block2/index.html',
+  './src/app/block3/index.html',
+  './src/app/block4/index.html',
   './src/app/footer/index.html',
   './src/app/base/end.html',
 ]
