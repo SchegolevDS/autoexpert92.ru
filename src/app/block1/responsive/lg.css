@@ -1,7 +1,37 @@
 /*Большие девайсы и больше (десктопы, >= 992px)*/
-@media (min-width: 992px)) {
+@media (min-width: 992px) {
   .about .img1, .about .img2, .about .img3, .about .img4 {
+    height: auto;
     width: auto;
+  }
+
+  .about .item{
+    padding-left: 10px;
+  }
+
+  .about .item--center {
+    padding: 0 5px 0 40px;
+  }
+
+  h4 {
+    font-size: 21px;
+    line-height: 32px;
+  }
+
+  .about .headline h6 {
+    color: #72747b;
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .about p {
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  .about u {
+    font-size: 20px;
+    line-height: 26px;
   }
 }
 
