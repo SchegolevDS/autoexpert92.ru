@@ -1,5 +1,13 @@
 /*Большие девайсы и больше (десктопы, >= 992px)*/
 @media (min-width: 992px) {
+  .m {
+    display: none;
+  }
+
+  .l {
+    display: block;
+  }
+
   .header {
     height: 890px;
     font-size: 17px;

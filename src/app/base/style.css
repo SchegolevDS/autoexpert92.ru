@@ -1,9 +1,6 @@
 html, body {
   font-family: FuturaPT;
 }
-::-webkit-scrollbar {
-    display: none;
-}
 
 .container {
   max-width: 1170px;

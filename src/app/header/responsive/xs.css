@@ -3,6 +3,14 @@ html, body {
   font-size: 16px;
 }
 
+.m {
+  display: block;
+}
+
+.l {
+  display: none;
+}
+
 .header {
   background: url(../images/bg.jpg) bottom no-repeat;
   background-size: 2700px;
