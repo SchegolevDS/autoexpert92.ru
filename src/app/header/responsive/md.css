@@ -71,17 +71,17 @@
     height: auto;
   }
 
-  .tel {
+  .nav .tel {
     width: auto;
     padding-top: 0;
   }
 
-  .tel r {
+  .nav .tel r {
     font-size: 16px;
     margin-bottom: 5px;
   }
 
-  .tel small {
+  .nav .tel small {
     display: block;
     font-size: 12px;
     font-weight: 500;
@@ -90,7 +90,7 @@
     text-align: left;
   }
 
-  .tel text {
+  .nav .tel text {
     display: none;
   }
 

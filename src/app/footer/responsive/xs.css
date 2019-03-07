@@ -1,36 +1,75 @@
 /* Экстрамалые девайсы и больше*/
-
 footer {
   background: white;
-  padding: 35px;
+  padding: 20px 0;
+}
+
+footer p {
+  color: #7c7c7c;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 footer .info {
-  box-sizing: border-box;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 
 footer .info__item--1 {
+  display: flex;
   align-items: flex-start;
-  flex-grow: 5;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
 
 footer .info__item--2 {
-  align-items: flex-start;
-  flex-grow: 4;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
+  order: 2;
 }
 
 footer .info__item--3 {
-  align-items: flex-start;
-  flex-grow: 3;
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
+  order: 1;
 }
+
+footer .text {
+  display: none;
+}
+
+footer a {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 19px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+footer .tel a {
+  color: #f5124a;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 12px;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer .vk {
+  margin: auto 0;
+}
+
 
 /* Только Экстрамалые девайсы («портретные телефоны», < 576px)*/
 @media (max-width: 575.98px) {

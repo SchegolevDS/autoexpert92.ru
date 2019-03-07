@@ -1,6 +1,10 @@
 /* Экстрамалые девайсы и больше*/
+.know {
+  padding-bottom: 67px;
+}
+
 .know .headline {
-  margin: 20px 0 20px 0;
+  margin: 15px 0 20px 0;
 }
 
 .know .info {
@@ -11,19 +15,24 @@
   align-items: center;
 }
 
-.know .info__item--1, .know .info__item--2, .know .info__item--3, .know .info__item--3 {
+.know .info__item--1, .know .info__item--2, .know .info__item--3, .know .info__item--4 {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.know .item__text--1, .know .item__text--2, .know .item__text--3, .know .item__text--4 {
+.know .item__text--1 {
+  width: 100%;
+}
+
+.know .item__text--2, .know .item__text--3, .know .item__text--4 {
   width: 100%;
   display: none;
 }
 
 .know .item__text--border {
+  width: 100%;
   box-sizing: border-box;
   background: white;
   border-radius: 5px;
@@ -31,7 +40,11 @@
   color: #383838;
   font-size: 16px;
   line-height: 21px;
-  padding: 20px 20px 30px 20px;
+  padding: 18px 18px 30px 18px;
+}
+
+.know .item__text--border br {
+  display: none;
 }
 
 .know .button {
@@ -50,6 +63,14 @@
   border-radius: 25px 25px 25px 25px;
 }
 
+.know .button m {
+  display: block;
+}
+
+.know .button l {
+  display: none;
+}
+
 .know .button--bg {
   display: flex;
   align-items: center;
@@ -60,6 +81,10 @@
   border-style: none;
   border-radius: 35px 35px 35px 35px;
   background-color: rgba(245, 18, 74, 0);
+}
+
+button:active, button:focus {
+  outline: none;
 }
 
 .know .button--bg:hover, .button--bg:focus {

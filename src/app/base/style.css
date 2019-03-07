@@ -24,6 +24,10 @@ r {
   color: #f5124a;
 }
 
+.flex {
+  display: flex;
+}
+
 @media (min-width: 768px) {
   .container {
     padding: 0 15px;

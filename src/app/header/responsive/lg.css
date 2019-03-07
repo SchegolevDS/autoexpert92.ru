@@ -47,11 +47,11 @@
     margin: 16px;
   }
 
-  .tel r {
+  .nav .tel r {
     font-size: 18px;
   }
 
-  .tel small {
+  .nav .tel small {
     font-size: 12px;
     line-height: 22px;
   }
@@ -64,11 +64,11 @@
 
 /*(десктопы, >= 1060px)*/
 @media (min-width: 1060px) {
-  .tel r {
+  .nav .tel r {
     font-size: 26px;
   }
 
-  .tel small {
+  .nav .tel small {
     font-size: 14px;
     line-height: 22px;
   }

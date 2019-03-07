@@ -2,22 +2,67 @@
 @media (min-width: 768px) {
   .contacts {
     background: none;
+    padding: 0;
+  }
+
+  #contacts .head .headline {
+    display: none;
   }
 
   .contacts .info {
-    margin: 180px 0 -640px 0;
-    width: 484px;
-    height: 460px;
+    width: 400px;
+    height: 430px;
+    padding: 19px;
+    margin: 100px 0 -530px 40px;
   }
 
-  .contacts .headline {
-    margin: 20px;
+  .contacts .info__block {
+    border: 2px dashed #f5124a;
+  }
+
+  .contacts .info__block .headline {
+    margin-bottom: 40px;
+    display: block;
   }
 
   .map {
     display: block;
     height: 740px;
     width: 100%;
+  }
+
+  .contacts .info__block--items {
+    height: 65px;
+    padding-bottom: 20px;
+  }
+
+  .contacts .info__block--item-1 {
+    width: 20%;
+    margin-right: 5px;
+  }
+
+  .contacts .info__block--item-2 {
+    width: 75%;
+  }
+
+  .contacts .img1, .contacts .img2, .contacts .img3 {
+    height: auto;
+    width: auto;
+  }
+
+  .contacts span {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .contacts p {
+    margin-top: 5px;
+    line-height: 25px;
+    font-size: 18px;
+  }
+
+  .contacts .info__block--item-2 .tel {
+    font-size: 25px;
   }
 }
 

@@ -38,11 +38,11 @@ html, body {
   align-items: center;
 }
 
-.tel a {
+.nav .tel a {
   color: #f5124a;
 }
 
-.tel {
+.nav .tel {
   width: 100%;
   padding-top: 12px;
   flex-direction: column;
@@ -52,16 +52,16 @@ html, body {
   text-align: center;
 }
 
-.tel r {
+.nav .tel r {
   font-size: 20px;
   font-weight: 800;
 }
 
-.tel small {
+.nav .tel small {
   display: none;
 }
 
-.tel text {
+.nav .tel text {
   text-transform: none;
   font-size: 16px;
 }

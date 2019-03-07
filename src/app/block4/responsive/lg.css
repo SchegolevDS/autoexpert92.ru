@@ -1,6 +1,31 @@
 /*Большие девайсы и больше (десктопы, >= 992px)*/
 @media (min-width: 992px) {
+  .contacts .info {
+    width: 484px;
+    height: 530px;
+    padding: 19px;
+    margin: 80px 0 -610px 0;
+  }
 
+  .contacts .info__block--items {
+    height: 100px;
+    padding-bottom: 20px;
+  }
+
+  .contacts span {
+    font-size: 23px;
+    line-height: 35px;
+  }
+
+  .contacts p {
+    margin-top: 5px;
+    line-height: 35px;
+    font-size: 23px;
+  }
+
+  .contacts .info__block--item-2 .tel {
+    font-size: 31px;
+  }
 }
 
 /*Только Большие девайсы (большие десктопы, >= 992px)*/
