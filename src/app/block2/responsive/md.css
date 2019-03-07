@@ -1,29 +1,63 @@
 /*Средние девайсы и больше («таблетки», >= 768px)*/
 @media (min-width: 768px) {
   h5 {
-    font-size: 100px;
+    font-size: 72px;
     font-weight: 400;
     letter-spacing: 2px;
-    margin: 25px 0 25px 0;
+    margin: 25px 0 30px 0;
   }
 
   .professional p {
-    width: 266px;
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 30px;
     text-align: left;
+    height: 100%;
   }
 
   .professional small {
     width: 60px;
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 30px;
+    margin: -25px 0;
   }
 
-  .professional .info__item {
+  .professional {
+    background-position: center;
+  }
+
+  .professional .headline {
+    margin-bottom: 75px;
+    padding-top: 40px;
+  }
+
+  .professional .info__item--1 {
     width: auto;
+    flex-grow: 11;
+  }
+
+  .professional .info__item--1 p {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+  }
+
+  .professional .info__item--2 p {
+    margin-left: 10px;
+    margin-right: -10px;
+    width: 197px;
+  }
+
+  .professional .info__item--2 {
+    width: auto;
+    flex-grow: 13;
+  }
+
+  .professional .info__item--module{
+    height: 150px;
+    margin: 0 0 65px 0;
+    align-items: center;
   }
 }
 

@@ -1,4 +1,38 @@
 /*Экстрабольшие девайсы (большие десктопы, >= 1200px)*/
 @media (min-width: 1200px) {
-  
+  h5 {
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 25px 0 45px 0;
+  }
+
+  .professional p {
+    width: 266px;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    height: 100%;
+  }
+
+  .professional small {
+    width: 60px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: -25px 0;
+  }
+
+  .professional .info__item--1 p {
+    margin-left: 38px;
+    margin-right: -38px;
+    width: 240px;
+  }
+
+  .professional .info__item--2 p {
+    margin-left: 16px;
+    margin-right: -16px;
+    width: 266px;
+  }
 }
