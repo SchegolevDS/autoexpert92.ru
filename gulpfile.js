@@ -44,7 +44,7 @@ function styles() {
   return gulp.src(cssFiles)
     .pipe(concat('style.css'))
     .pipe(autoprefixer({
-      browsers: ['> 0.1%'],
+      browsers: ['> 0.01%'],
       cascade: false
     }))
     .pipe(cleanCSS({

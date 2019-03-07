@@ -16,7 +16,7 @@
 }
 
 .know .info__item--1, .know .info__item--2, .know .info__item--3, .know .info__item--4 {
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
