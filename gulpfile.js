@@ -97,5 +97,6 @@ exports.watch = watch;
 exports.html = html;
 exports.styles = styles;
 exports.scripts = scripts;
+exports.images = images;
 exports.clean = clean;
 exports.build = series(clean, parallel(html, styles, scripts, images, fonts));

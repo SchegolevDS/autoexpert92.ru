@@ -1,7 +1,7 @@
 /*Большие девайсы и больше (десктопы, >= 992px)*/
 @media (min-width: 992px) {
   .know {
-    background: url(../images/bg2.png) center no-repeat;
+    background: url(../images/bg2.jpg) center no-repeat;
     background-size: cover;
     height: 898px;
     padding: 1px;

@@ -14,7 +14,7 @@
   }
 
   .background {
-    background: url(../images/bg1.png) top no-repeat;
+    background: url(../images/shadow.png) top no-repeat;
     background-size: cover;
     height: 100%;
   }
