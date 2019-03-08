@@ -48,6 +48,8 @@
 }
 
 .know .button {
+  height: 46px;
+  width: 46px;
   background-color: #f5124a;
   border-style: none;
   border-radius: 25px 25px 25px 25px;
@@ -55,14 +57,13 @@
 
 .know .button m {
   display: none;
-  align-items: center;
-  justify-content: center;
   font-family: Raleway;
-  height: 46px;
-  width: 46px;
   color: #ffffff;
   letter-spacing: 0.34px;
   font-size: 17px;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .know .button l {
