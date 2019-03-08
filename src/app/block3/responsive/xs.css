@@ -48,23 +48,21 @@
 }
 
 .know .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 46px;
-  width: 46px;
-  box-sizing: border-box;
-  font-family: Raleway;
-  font-size: 17px;
-  letter-spacing: 0.34px;
-  color: #ffffff;
   background-color: #f5124a;
   border-style: none;
   border-radius: 25px 25px 25px 25px;
 }
 
 .know .button m {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Raleway;
+  height: 46px;
+  width: 46px;
+  color: #ffffff;
+  letter-spacing: 0.34px;
+  font-size: 17px;
 }
 
 .know .button l {
