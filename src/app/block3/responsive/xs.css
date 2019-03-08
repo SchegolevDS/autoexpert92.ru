@@ -3,10 +3,6 @@
   padding-bottom: 67px;
 }
 
-.know m {
-  display: none!important;
-}
-
 .know .headline {
   margin: 15px 0 20px 0;
 }
@@ -59,8 +55,7 @@
   width: 46px;
   box-sizing: border-box;
   font-family: Raleway;
-  font-size: 15px;
-  line-height: 54px;
+  font-size: 17px;
   letter-spacing: 0.34px;
   color: #ffffff;
   background-color: #f5124a;
