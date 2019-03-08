@@ -3,6 +3,10 @@
   padding-bottom: 67px;
 }
 
+.know m {
+  display: none!important;
+}
+
 .know .headline {
   margin: 15px 0 20px 0;
 }
