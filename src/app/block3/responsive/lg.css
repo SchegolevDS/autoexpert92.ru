@@ -16,8 +16,13 @@
   }
 
   .know .button l {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: FuturaPT;
-    display: block;
+    color: #ffffff;
     font-size: 28px;
   }
 
