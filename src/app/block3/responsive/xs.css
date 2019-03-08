@@ -50,12 +50,15 @@
 .know .button {
   height: 46px;
   width: 46px;
+  margin: 0 auto;
   background-color: #f5124a;
   border-style: none;
   border-radius: 25px 25px 25px 25px;
 }
 
 .know .button m {
+  height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,11 +73,6 @@
 }
 
 .know .button--bg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  z-index: 0;
   height: 67px;
   width: 67px;
   border-style: none;
