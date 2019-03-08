@@ -54,7 +54,7 @@
 }
 
 .know .button m {
-  display: block;
+  display: none;
   align-items: center;
   justify-content: center;
   font-family: Raleway;
